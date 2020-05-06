@@ -4,7 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import java.util.ArrayList;
+
 public class SecondActivity extends AppCompatActivity {
+    private ArrayList<ExampleItem> mExampleList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
